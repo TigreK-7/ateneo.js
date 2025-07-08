@@ -6,7 +6,7 @@
   "scripts": {
     "des": "nodemon --exec node src/server.js",
     "pro": "npx webpack --mode production --progress",
-    "build": "npx webpack --mode production --progress",
+    "build": "npx webpack-cli --mode production --progress",
     "start": "node src/server.js"
   },
   "author": "Kevin",
