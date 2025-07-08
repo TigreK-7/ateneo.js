@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "des": "nodemon --exec node src/server.js",
-    "pro": "webpack --mode production --progress"
+    "pro": "webpack --mode production --progress",
+    "build": "webpack --mode production --progress",
+    "start": "node src/server.js"
   },
   "author": "Kevin",
   "license": "ISC",
